@@ -1,0 +1,9 @@
+---- block component ----
+1. WhatsApp payment.
+2. Dialog Flow
+3. Calendly
+4. Google Sheets
+5. payment integration 
+6. google calender
+7. gmail
+8. WhatsApp interactive address. -- imp
