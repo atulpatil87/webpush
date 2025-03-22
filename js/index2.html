@@ -35,5 +35,17 @@
             window.Chat360Notification.subscribe()
         });
     </script>
+    <script type="text/javascript">
+  var s = document.createElement("script");
+  s.src = "https://staging.chat360.io/push/notification/script.js";
+  s.async = true;
+  s.onload = function () {
+    window.Chat360Notification.initialize({
+      channelId: "16e651e5-f781-4bd3-ba5f-f600a19f5311",
+    });
+    window.chat360Push("startTrack");
+  }
+  document.head.appendChild(s);
+</script>
 </body>
 </html>
