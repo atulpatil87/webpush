@@ -34,18 +34,19 @@
         document.getElementById("notifyBtn").addEventListener("click", function() {
             window.Chat360Notification.subscribe()
         });
-    </script>
+        
 <script type="text/javascript">
   var s = document.createElement("script");
   s.src = "https://app.chat360.io/push/notification/script.js";
   s.async = true;
   s.onload = function () {
     window.Chat360Notification.initialize({
-      channelId: "587ce5cd-8346-4b69-845a-f85385a36319",
+      channelId: "334ef857-a558-44e2-a983-7104b94a1fed",
     });
     window.chat360Push("startTrack");
   }
   document.head.appendChild(s);
 </script>
+    
 </body>
 </html>
