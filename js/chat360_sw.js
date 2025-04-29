@@ -1,5 +1,5 @@
 var chat360Config = {
-  channelId: "334ef857-a558-44e2-a983-7104b94a1fed",
-  key: "BIRnLSTW6Z5x75lKOkpX7_3pPRjTMjZRnd8b7MWkVjF94QQfU4J6AXIfte7VlGJcBOaN6QM3q0qRVhE60LHhULA"
+  channelId: "16e651e5-f781-4bd3-ba5f-f600a19f5311",
+  key: "BE3FXol_7WMeMVQpYUEf1oPd6c3miXVsdHfaRmt3UslTLtFQKZV8GWOkpo9b4WLvt2pCs7Cc30CL5XEwIjb0WUk"
 };
-importScripts("https://app.chat360.io/push/service_worker/sw.js");
+importScripts("https://staging.chat360.io/push/service_worker/sw.js");
