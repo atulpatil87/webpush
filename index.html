@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>Add commentMore actions
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -32,19 +32,18 @@
     
     <script>
         document.getElementById("notifyBtn").addEventListener("click", function() {
-            // if ("Notification" in window) {
-            //     Notification.requestPermission().then(permission => {
-            //         if (permission === "granted") {
-            //             new Notification("Notifications Enabled", {
-            //                 body: "You will now receive notifications!",
-            //                 icon: "https://via.placeholder.com/100"
-            //             });
-            //         }
-            //     });
-            // } else {
-            //     alert("Your browser does not support notifications.");
-            // }
-            window.Chat360Notification.subscribe()
+            if ("Notification" in window) {
+                Notification.requestPermission().then(permission => {
+                    if (permission === "granted") {
+                        new Notification("Notifications Enabled", {
+                            body: "You will now receive notifications!",
+                            icon: "https://via.placeholder.com/100"
+                        });
+                    }
+                });
+            } else {
+                alert("Your browser does not support notifications.");
+            }
         });
     </script>
 </body>
